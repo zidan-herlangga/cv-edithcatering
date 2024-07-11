@@ -1,0 +1,47 @@
+.catalog {
+    padding: 8rem 7% 1.4rem;
+  }
+
+  .catalog .title {
+     text-align: center;
+     font-size: 4rem;
+     margin-bottom: 3rem;
+     color: var(--bg-second);
+  }
+  
+  .section-content {
+    margin-bottom: 20px;
+  }
+  .section-title {
+    background-color: #805E3A;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .section-title img {
+    width: 90px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  .section-title h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .section-content {
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .section-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+  }
+  .section-content ul li {
+    margin-bottom: 5px;
+    color: var(--bg-second);
+  }

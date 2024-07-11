@@ -1,0 +1,53 @@
+.gubukan {
+  padding: 8rem 7% 1.4rem;
+}
+
+.gubukan h2 {
+    text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  color: var(--bg-second);
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 1rem;
+}
+.menu-column {
+    flex: 1;
+    min-width: 200px;
+    /* margin: 0 auto; */
+    /* margin-top: 1rem; */
+    margin-left: 0 1rem 1rem;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.menu-column ul {
+    /* list-style: none; */
+    padding: 0;
+    color: var(--bg-second);
+}
+.menu-column li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .menu-column {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-column {
+        /* margin: auto; */
+        min-width: 100%;
+    }
+}
