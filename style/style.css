@@ -40,8 +40,9 @@ body {
   overflow-x: hidden !important;
   font-family: "Poppins", sans-serif;
   /* background-color: var(--bg); */
-  background-color: var(--bg-text);
+  /* background-color: var(--bg-text); */
   color: #fff;
+  background: url("/background-ornament.png") rgba(0, 0, 0, 0.1);
 }
 
 /* Button Whatsapp */

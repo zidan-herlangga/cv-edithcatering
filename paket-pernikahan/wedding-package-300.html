@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- META BROWSER -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta content="Wedding Package | CV. Edith Arkatama" property="og:title" />
 
-  <title>Wedding Package | CV. Edith Arkatama</title>
+  <!-- HTML Meta Tags -->
+  <title>Paket - CV. Edith Arkatama</title>
+  <meta name="author" content="Cv. Edith Arkatama">
+  <meta name="keywords" content="CV. Edith Arkatama, Edith Arkatama, Edith Event Planner, Catering Edith">
+  <meta name="description" content="CV. Edith Arkatama menyediakan layanan Event Organizer, Transportasi Pariwisata, dan Catering dengan harga dan fasilitas terbaik.">
+  <meta content="CV. Edith Arkatama" property="og:title" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:url" content="https://editharkatama.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CV. Edith Arkatama">
+  <meta property="og:description" content="CV. Edith Arkatama menyediakan layanan Event Organizer, Transportasi Pariwisata, dan Catering dengan harga dan fasilitas terbaik.">
+  <meta property="og:image" content="https://editharkatama.vercel.app/img/logo/logo-edith.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="editharkatama.vercel.app">
+  <meta property="twitter:url" content="https://editharkatama.vercel.app/">
+  <meta name="twitter:title" content="CV. Edith Arkatama">
+  <meta name="twitter:description" content="CV. Edith Arkatama menyediakan layanan Event Organizer, Transportasi Pariwisata, dan Catering dengan harga dan fasilitas terbaik.">
+  <meta name="twitter:image" content="https://editharkatama.vercel.app/img/logo/logo-edith.png">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/img/favicon/logo-edith.png" type="image/x-icon">
@@ -37,7 +57,7 @@
 
 <body>
   <!-- Modal Startup -->
-    <div id="modalStart" class="modal">
+  <div id="modalStart" class="modal">
       <div class="modal-content" style="color: #333;">
           <span class="close">&times;</span>
           <a href="banner-start.png" target="_blank">
@@ -54,7 +74,7 @@
             pembayaran yang dilakukan selain melalui no. rek yang tertera di
             atas.</b></p>
       </div>
-    </div>
+  </div>
   <!-- Modal Starup End -->
 
   <!-- Whatsapp Button -->
@@ -142,7 +162,7 @@
   <section id="packages" class="packages">
     <h2 class="title">Wedding Package</h2>
     <div class="container">
-      <div class="package">
+      <div class="package" data-aos="zoom-in">
         <div class="btn-np">
           <a href="wedding-package-400.html">Next</a>
         </div>
@@ -326,32 +346,13 @@
     </div>
   </section>
   <!-- Footer Section End -->
-
-  <script>
-    let modal = document.getElementById("modalStart");
-
-    // Get the <span> element that closes the modal
-    let span = document.getElementsByClassName("close")[0];
-
-    // When the page loads, open the modal
-    window.onload = function() {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-  </script>
-
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199999999-1"></script> -->
+  
+  <!-- My JavaScript -->
   <script src="/js/script.js"></script>
+  <script src="/js/modalstart.js"></script>
+  
   <!-- AOS Library -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
