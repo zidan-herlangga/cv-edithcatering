@@ -1,7 +1,7 @@
 :root {
   --bg: #010101;
   --bg-second: #333;
-  --bg-text: #FDCB9E;
+  --bg-text: #fdcb9e;
   /* --primary: #FF8E8F; */
   /* --primary: #a09684; */
 }
@@ -13,13 +13,13 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px var(--bg);
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  /* background: var(--primary); */
+  background: var(--bg-second);
   border-radius: 10px;
 }
 
